@@ -1,3 +1,0 @@
-Keterangan Revisi Simak
--Mengubah menu login dari sebelah kanan menjadi ke atas sebelah kiri.
--
