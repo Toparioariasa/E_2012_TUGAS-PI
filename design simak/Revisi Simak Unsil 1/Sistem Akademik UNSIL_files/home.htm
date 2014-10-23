@@ -71,10 +71,18 @@
       <style type="text/css">
 <!--
 .style2 {font-size: larger}
+#apDiv1 {
+	position: absolute;
+	left: 41px;
+	top: 387px;
+	width: 187px;
+	height: 44px;
+	z-index: 0;
+}
 -->
       </style>
       </head><body id="home"><div class="ddshadow toplevelshadow" style="left: 417.046875px; top: 207px;"></div><div class="ddshadow toplevelshadow" style="left: 305.015625px; top: 207px;"><div class="ddshadow" style="left: 200px; top: 31px;"></div></div>
-<script language="JavaScript">
+      <script language="JavaScript">
 <!--
 
 //Disable right click script 
@@ -136,7 +144,7 @@ document.oncontextmenu=new Function("return false")
                                                                   <li><a href="http://pmb.unsil.ac.id/daftar.php">Diploma (D3) / Sarjana (S1)</a></li>   		
                                                                   <li><a href="http://simak.unsil.ac.id/#">Pascasarjana (S2)</a></li>                                                                    	
                                                             </ul>		
-                                                  	  </li>
+                                               	    </li>
                                                   <li><a href="http://pmb.unsil.ac.id/diagram.php">Tata Alir Registrasi</a></li>                                                  
                                               </ul>			
                                           </li>
@@ -162,6 +170,18 @@ document.oncontextmenu=new Function("return false")
 	<div id="ticker-wrapper-1413538284385" class="ticker-wrapper has-js left"><div id="ticker-1413538284385" class="ticker"><div id="ticker-title-1413538284385" class="ticker-title"><span>::</span></div><p id="ticker-content-1413538284385" class="ticker-content" style="display: block; opacity: 1; left: 29px;">Janganlah bekerja keras hanya untuk sekedar mencari NILAI, tetapi kerja keras lah utk mndapatkan ILMU. Semoga ILMU kita bermanfaat. Amin...</p><div id="ticker-swipe-1413538284385" class="ticker-swipe" style="left: 29px; margin-left: 818px; display: none;"><span style="display: block;"><!-- --></span></div></div><ul id="ticker-controls-1413538284385" class="ticker-controls"><li id="play-pause-1413538284385" class="jnt-play-pause controls"><a href=""><!-- --></a></li><li id="prev-1413538284385" class="jnt-prev controls"><a href=""><!-- --></a></li><li id="next-1413538284385" class="jnt-next controls"><a href=""><!-- --></a></li></ul></div>
 	<!-- NEWS TICKER -->
 		<div id="main">
+			<form name="form1" method="post" action="">
+			  <label for="textfield2">N.P.M</label>
+			  <input type="text" name="textfield" id="textfield2">
+		      <label for="textfield3">Password</label>
+		      <input type="password" name="textfield2" id="textfield3">
+		      <input type="submit" name="button" id="button" value="Login">
+		  </form>
+			<div id="page">
+			  <h6>Password Default: Tanggal Lahir<br>
+			  Contoh: 21021992&nbsp;<br>
+		    Angkatan 2011 : 1999-12-30</h6>
+			</div>
 			<div id="contentwide" class="contentwide floatright">
 				<div id="content" class="content floatleft">
 					<div class="node">
@@ -203,65 +223,7 @@ Login SIMAK, Klik Menu Mahasiswa -&gt; 10 Dispay Status Mhsw. Segala Aktifitas A
 		</div>
 		
 		<hr>
-
-		<div id="sidebarleft" class="sideleft floatleft">
-				<div class="block">	
-
-				<!-- menu login	-->
-<div style="opacity: 0.7; position: absolute; top: 0px; left: 0px;  display: none;" class="tooltip"></div>
-<h3>Login</h3>
-
-<form name="frmLogin" action="http://simak.unsil.ac.id/us-unsil/index.php" method="POST" id="loginform" class="expose"><input type="hidden" name="lid" value="120">
-	<input type="hidden" name="mnux" value="loginprc">
-	<input type="hidden" name="gos" value="cek">
-	<input type="hidden" name="nme" value="Mahasiswa">
-	<input type="hidden" name="institusi" value="UNSIL">
-	<input type="hidden" name="KodeID" value="UNSIL">
-	<input type="hidden" name="BypassMenu" value="1"><table border="0" width="75%">
-	<tbody><tr>
-		<td>N.P.M
-			<input tabindex="1" name="Login" type="text" autocomplete="off" title="Isikan NPM Mahasiswa"> 
-		</td>
-	</tr>
-
-	<tr>
-		<td>Password
-			<input tabindex="2" name="Password" type="password" autocomplete="off" title="Isikan Password Lama Mahasiswa"> 
-		</td>
-	</tr>
-	<tr><td>
-	<font size="1">Password Default: Tanggal Lahir<br>
-				Contoh: 21021992 <br>
-				Angkatan 2011 : 1999-12-30</font>
-	</td></tr>
-	
-	</tbody></table>
-
-	<br>
-	<input name="submit" value="Login" type="submit" title="Klik Tombol Login Untuk Masuk Sistem">
-	
-</form>				
-		<!-- menu login	-->
-
-		<!--
-				<h3>Bahasa</h3>
-								<ul>
-					<li><a href="http://simak.unsil.ac.id">Bahasa Indonesia</a></li>
-					<li><a href="http://simak.unsil.ac.id">English</a></li>
-				</ul>
-		
-
-				<h3>Informasi</h3>
-				<ul>
-					<li><a href="http://simak.unsil.ac.id">Lupa Password</a></li>
-					
-				</ul>
-			</div>-->
-		</div>
-		
-		<div class="clearboth"></div>
-	</div>
-	<hr>
+		<hr>
 	
 	<div id="footer">
 	
